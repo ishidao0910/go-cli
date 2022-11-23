@@ -6,23 +6,24 @@ task build
 
 Run the cli command.
 ```
-./bin/go-cli get [gopherName]
+./bin/valint run {sample.go}
 
-Ex) ./bin/go-cli get 5th-element
+Ex) ./bin/valint run test.go
 ```
 
-Clean all png files.
+Clean output.go file.
 ```
 task clean
 ```
 
 
-## about get command
-This get command will calll GitHub repository in order to return the desired Gopher.
-```
+# about run command
+This run command checks and corrects if you are 
+        following the variable naming conventions correctly
+
 Usage:
-  go-cli get [flags]
+  valint run [flags]
 
 Flags:
-  -h, --help   help for get
+  -h, --help   help for run
 ```
