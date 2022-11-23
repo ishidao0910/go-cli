@@ -1,5 +1,5 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+Copyright © 2022 NAME HERE <@ishidao0910>
 
 */
 package cmd
@@ -8,14 +8,13 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	// "github.com/spf13/viper"
 )
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "go-cli",
-	Short: "Gopher CLI in GO",
-	Long:  `Gopher CLI application written in GO.`,
+	Use:   "valint",
+	Short: "Golang variables' linter",
+	Long:  `Golang CLI application for linting variables' name written in GO.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
